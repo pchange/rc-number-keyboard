@@ -25,7 +25,7 @@ React NumberKeyboard
 
 ## Screenshot
 
-<img src="./screenshot/keyboard.jpeg" width="450"/>
+<img src="https://raw.githubusercontent.com/pchange/rc-number-keyboard/master/screenshot/keyboard.jpeg" width="450"/>
 
 ## Browser Support
 
