@@ -1,0 +1,47 @@
+.rc-number-keyboard {
+  border-top-left-radius: 3px;
+  border-bottom-left-radius: 3px;
+  box-sizing: content-box;
+  border-radius: 6px;
+  overflow: hidden;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+  text-align: center;
+  line-height: 1.5;
+  font-weight: 700;
+  color: #ffffff;
+}
+.rc-number-keyboard-result {
+  font-size: 24px;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  color: #000000;
+  letter-spacing: 1px;
+  background-color: #e0e0e0;
+  background: linear-gradient(180deg, #e0e0e0, #f0f0f0 30%, #eeeeee);
+}
+.rc-number-keyboard-table {
+  width: 100%;
+  table-layout: fixed;
+  border-spacing: 0;
+}
+.rc-number-keyboard-keyboard-col {
+  font-size: 24px;
+  background-color: #9ea6b3;
+  border-top: 1px solid #ffffff;
+  border-right: 1px solid #ffffff;
+}
+.rc-number-keyboard-keyboard-col:last-child {
+  border-right: 0;
+}
+.rc-number-keyboard-keyboard-col:active {
+  color: #e6e6e6;
+  background-color: #bbc0c9;
+}
+.rc-number-keyboard-keyboard-delete-col {
+  letter-spacing: 1px;
+}
+
+/*# sourceMappingURL=simple.css.map*/
