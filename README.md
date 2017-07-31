@@ -44,7 +44,7 @@ React NumberKeyboard
 var NumberKeyboard = require('rc-number-keyboard');
 var React = require('react');
 var ReactDOM = require('react-dom');
-ReactDOM.render(<NumberKeyboard placement="left" trigger={['click']} overlay={<span>tooltip</span>}><a href='#'>hover</a></NumberKeyboard>, container);
+ReactDOM.render(<NumberKeyboard />, container);
 ```
 
 ## Examples
