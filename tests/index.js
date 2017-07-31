@@ -44,6 +44,11 @@ describe('rc-number-keyboard', () => {
   // });
 
   describe('check value and on change props', () => {
+    it('init', (done) => {
+      const numberKeyboard = ReactDOM.render(<NumberKeyboard className="test-number-keyboard" />, div);
+      verifyContent(numberKeyboard, `${0}`, done);
+    });
+
     it('props value', (done) => {
       const value = parseInt(Math.random() * 10, 10);
       const numberKeyboard = ReactDOM.render(<NumberKeyboard value={value} />, div);
