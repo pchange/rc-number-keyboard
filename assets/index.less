@@ -1,0 +1,76 @@
+@number-keyboard-prefix-cls: rc-number-keyboard;
+
+//
+// number-keyboard
+// --------------------------------------------------
+@font-size-base         : 12px;
+@line-height-base       : 1.5;
+@border-radius-base     : 6px;
+//** NumberKeyboard text color
+@number-keyboard-font-weight: 700;
+@number-keyboard-color: #ffffff;
+@number-keyboard-result: #000000;
+//** NumberKeyboard background color
+@number-keyboard-result-bg: #e0e0e0;
+@number-keyboard-result-middle: #f0f0f0;
+@number-keyboard-result-end: #eeeeee;
+@number-keyboard-col-bg: #9ea6b3;
+@number-keyboard-col-border-color: #ffffff;
+@number-keyboard-opacity: 0.9;
+
+// Base class
+.@{number-keyboard-prefix-cls} {
+  border-top-left-radius: 3px;
+  border-bottom-left-radius: 3px;
+  box-sizing: content-box;
+  border-radius: @border-radius-base;
+  overflow: hidden;
+  user-select: none;
+  text-align: center;
+  line-height: @line-height-base;
+  font-weight: @number-keyboard-font-weight;
+  color: @number-keyboard-color;
+
+  &-result {
+    font-size: @font-size-base * 2;
+    padding-top: @font-size-base / 4;
+    padding-bottom: @font-size-base / 4;
+    color: @number-keyboard-result;
+    letter-spacing: 1px;
+    background-color: @number-keyboard-result-bg;
+    background: linear-gradient(180deg, @number-keyboard-result-bg, @number-keyboard-result-middle 30%, @number-keyboard-result-end);
+  }
+
+  &-keyboard {
+
+  }
+
+  &-table {
+    width: 100%;
+    table-layout: fixed;
+    border-spacing: 0;
+  }
+
+  &-keyboard-row {
+
+  }
+
+  &-keyboard-col {
+    font-size: @font-size-base * 2;
+    background-color: @number-keyboard-col-bg;
+    border-top: 1px solid @number-keyboard-col-border-color;
+    border-right: 1px solid @number-keyboard-col-border-color;
+    &:last-child {
+      border-right: 0;
+    }
+    &:active {
+      color: darken(@number-keyboard-color, 10%);
+      background-color: lighten(@number-keyboard-col-bg, 10%);
+    }
+  }
+
+
+  &-keyboard-delete-col {
+    letter-spacing: 1px;
+  }
+}
