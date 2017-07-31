@@ -12,12 +12,12 @@ React NumberKeyboard
 
 [npm-image]: http://img.shields.io/npm/v/rc-number-keyboard.svg?style=flat-square
 [npm-url]: http://npmjs.org/package/rc-number-keyboard
-[travis-image]: https://img.shields.io/travis/pchange/tooltip.svg?style=flat-square
-[travis-url]: https://travis-ci.org/pchange/tooltip
-[coveralls-image]: https://img.shields.io/coveralls/pchange/tooltip.svg?style=flat-square
-[coveralls-url]: https://coveralls.io/r/pchange/tooltip?branch=master
-[gemnasium-image]: http://img.shields.io/gemnasium/pchange/tooltip.svg?style=flat-square
-[gemnasium-url]: https://gemnasium.com/pchange/tooltip
+[travis-image]: https://img.shields.io/travis/pchange/rc-number-keyboard.svg?style=flat-square
+[travis-url]: https://travis-ci.org/pchange/rc-number-keyboard
+[coveralls-image]: https://img.shields.io/coveralls/pchange/rc-number-keyboard.svg?style=flat-square
+[coveralls-url]: https://coveralls.io/r/pchange/rc-number-keyboard?branch=master
+[gemnasium-image]: http://img.shields.io/gemnasium/pchange/rc-number-keyboard.svg?style=flat-square
+[gemnasium-url]: https://gemnasium.com/pchange/rc-number-keyboard
 [node-image]: https://img.shields.io/badge/node.js-%3E=_0.10-green.svg?style=flat-square
 [node-url]: http://nodejs.org/download/
 [download-image]: https://img.shields.io/npm/dm/rc-number-keyboard.svg?style=flat-square
@@ -52,7 +52,7 @@ ReactDOM.render(<NumberKeyboard />, container);
 `npm start` and then go to
 [http://localhost:8000/examples](http://localhost:8000/examples)
 
-Online examples: [http://pchange.github.io/tooltip/examples/](http://pchange.github.io/tooltip/examples/)
+Online examples: [http://pchange.github.io/rc-number-keyboard/examples/](http://pchange.github.io/rc-number-keyboard/examples/)
 
 ## API
 
