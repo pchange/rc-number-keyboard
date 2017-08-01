@@ -6,7 +6,8 @@
     "react",
     "pchange",
     "react-number-keyboard",
-    "rc-number-keyboard"
+    "rc-number-keyboard",
+    "number-keyboard"
   ],
   "files": [
     "lib",
