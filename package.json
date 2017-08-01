@@ -37,7 +37,8 @@
     "start": "rc-tools run server",
     "compile": "rc-tools run compile --babel-runtime",
     "pub": "rc-tools run pub --babel-runtime",
-    "lint": "rc-tools run lint --ext .js src test",
+    "lint": "eslint --ext .js ./",
+    "precommit": "npm run lint",
     "karma": "rc-test run karma",
     "saucelabs": "rc-test run saucelabs",
     "test": "rc-test run test",
@@ -48,6 +49,11 @@
   "devDependencies": {
     "async": "~0.9.0",
     "bootstrap": "~3.3.2",
+    "eslint": "^3.12.2",
+    "eslint-config-airbnb": "^13.0.0",
+    "eslint-plugin-import": "^2.2.0",
+    "eslint-plugin-jsx-a11y": "^2.2.3",
+    "eslint-plugin-react": "^6.8.0",
     "expect.js": "~0.3.1",
     "jquery": "~1.11.2",
     "object-assign": "~4.0.1",
@@ -57,7 +63,7 @@
     "react": "15.x",
     "react-dom": "15.x"
   },
-  "bak-pre-commit": [
+  "pre-commit": [
     "lint"
   ],
   "dependencies": {
