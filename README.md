@@ -69,6 +69,12 @@ Online examples: [http://pchange.github.io/rc-number-keyboard/examples/](http://
     </thead>
     <tbody>
         <tr>
+          <td>value</td>
+          <td>int</td>
+          <td></td>
+          <td>component value</td>
+        </tr>
+        <tr>
           <td>onChange</td>
           <td>Function</td>
           <td></td>
